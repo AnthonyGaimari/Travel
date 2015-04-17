@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Footer
+-------------------------------------------*/
+
+/* Global */
+.footerWrapper {
+    background:#F1F1E5;
+    border-top:6px solid #cfcea8;
+    clear:both;
+    font-family:Arial;
+    font-size:12px;
+    line-height:15px;
+    margin:0 auto;
+    padding-bottom:5px;
+    width:inherit;
+    text-align:center;
+}
+.footerWrapper ul, .footerWrapper ul li {
+    list-style-type:none;
+    margin:0; 
+    padding:0;
+}
+.footerWrapper a {
+    color:#000;
+    outline:0;
+    text-decoration:none;
+}
+.footerWrapper a:hover {
+    color:#000;
+    text-decoration:underline;
+}
+.footerWrapper .footerColumns {
+    margin:0 auto;
+    width:inherit;
+    padding:20px 0 10px;
+    *padding:20px 0 10px;
+    text-align:left;
+}
+.footerWrapper .footerColumns h4 {
+    color:#4f230b;
+    font-weight:bold;
+    margin:0 0 15px;
+    font-size:12px;
+    line-height:15px;
+    text-transform:uppercase;
+    text-align:left;
+}
+.footerWrapper .footerColumns ul li.first {
+    color:#816027;
+    font-weight:bold;
+}
+.footerWrapper .footerColumns ul li.last {
+    font-weight:bold;
+    font-size:12px;
+    margin-top:7px;
+}
+
+/* Footer Columns */
+.footerWrapper .footerColumns .primaryColumn {
+    
+    height:0px;
+	margin-left:5px;
+	padding:0 5px;
+}
+.footerWrapper .footerColumns .secondaryColumn {
+   
+    margin-left:5px;
+    padding:0 5px;
+}
+.footerWrapper .footerColumns .thirdColumn {
+    
+    margin-left:5px;
+    padding:0 5px;
+}
+.footerWrapper .footerColumns .forthColumn {
+   
+    margin-left:5px;
+    padding:0 5px;
+}
+
+/* Footer Column Lists */
+.footerWrapper .footerColumns .primaryColumn ul,
+.footerWrapper .footerColumns .secondaryColumn ul,
+.footerWrapper .footerColumns .thirdColumn ul 
+.footerWrapper .footerColumns .forthColumn ul{
+    text-align:left;
+    height:85px;
+    margin-right:0px;
+}
+.footerWrapper .footerColumns .primaryColumn ul.last,
+.footerWrapper .footerColumns .secondaryColumn ul.last,
+.footerWrapper .footerColumns .thirdColumn ul.last
+.footerWrapper .footerColumns .forthColumn ul.last {
+    margin-right:0;
+}
+.footerWrapper .footerColumns .viewAll {
+    clear:both;
+    font-weight:bold;
+    text-align:center;
+}
+
+/* Footer Bottom */
+.footerWrapper .footerBottom {
+    clear:both;
+    color:#5e5d38;
+    font-size:11px;
+    font-weight:bold;
+    padding:30px 0 0;
+}
+
+.footerWrapper .footerBottom .terms {
+    margin-bottom:30px;
+}
+.footerWrapper .footerBottom p {
+    clear:both;
+    margin:0;
+    padding:10px 0 0;
+    text-align:center;
+}
+
+
+
+
+
