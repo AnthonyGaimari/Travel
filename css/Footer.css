@@ -59,23 +59,18 @@
 
 /* Footer Columns */
 .footerWrapper .footerColumns .primaryColumn {
-    
-    height:0px;
+    float:left;
+    height:130px;
 	margin-left:5px;
 	padding:0 5px;
 }
 .footerWrapper .footerColumns .secondaryColumn {
-   
+    float:left;
     margin-left:5px;
     padding:0 5px;
 }
-.footerWrapper .footerColumns .thirdColumn {
-    
-    margin-left:5px;
-    padding:0 5px;
-}
-.footerWrapper .footerColumns .forthColumn {
-   
+.footerWrapper .footerColumns .tertiaryColumn {
+    float:left;
     margin-left:5px;
     padding:0 5px;
 }
@@ -83,16 +78,14 @@
 /* Footer Column Lists */
 .footerWrapper .footerColumns .primaryColumn ul,
 .footerWrapper .footerColumns .secondaryColumn ul,
-.footerWrapper .footerColumns .thirdColumn ul 
-.footerWrapper .footerColumns .forthColumn ul{
+.footerWrapper .footerColumns .tertiaryColumn ul {
     text-align:left;
     height:85px;
-    margin-right:0px;
+    margin-right:25px;
 }
 .footerWrapper .footerColumns .primaryColumn ul.last,
 .footerWrapper .footerColumns .secondaryColumn ul.last,
-.footerWrapper .footerColumns .thirdColumn ul.last
-.footerWrapper .footerColumns .forthColumn ul.last {
+.footerWrapper .footerColumns .tertiaryColumn ul.last {
     margin-right:0;
 }
 .footerWrapper .footerColumns .viewAll {
