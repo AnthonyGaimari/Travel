@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>Tuzola - DEMO</title>
+
+<!-- Bootstrap Core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom CSS -->
+<link href="css/landing-page.css" rel="stylesheet">
+<link href="css/custom.css" rel="stylesheet" type="text/css">
+<link href="css/Footer.css" rel="stylesheet" type="text/css">
+
+<!-- Custom Fonts -->
+<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1">
+
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+
+            </button>
+            <a class="navbar-brand" href="#">
+                <img class="hidden-xs" src="img/logo/logo.png" alt="" width="150px">    
+            </a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Login</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+  
+
+<!-- Search Field --> 
+<a name="about"></a>
+<div class="intro-header">
+  <div class="container">
+
+  <!-- Tagline -->  
+  <div class="row tagline">
+
+    <div class="col-lg-4 col-md-4 col-sm-4">
+      <div class="iconbg">
+        <span class="glyphicon glyphicon-search" aria-hidden="true"></span><br>Search<br>Flight
+      </div>  
+    </div>
+
+    <div class="col-lg-4 col-md-4 col-sm-4">
+      <div class="iconbg">
+        <span class="glyphicon glyphicon-circle-arrow-down" aria-hidden="true"></span><br>Book<br>Downpayment
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-4 col-sm-4">
+      <div class="iconbg">
+        <span class="glyphicon glyphicon-credit-card" aria-hidden="true"></span><br>Pay<br>Later
+      </div>
+    </div>
+
+  </div>
+
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12">
+        <div class="intro-message">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 center">
+                <div class="row row-centered">
+                  <ul class="nav navbar-nav col-centered">
+                    <li><a>One-way</a></li>
+                    <li class="active"><a>Round-trip</a></li>
+                    <li><a>Mulit-city</a></li>
+                  </ul>
+                </div>
+                <form>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <label>From</label>
+                      <input class="form-control">
+                    </div>
+                    <div class="col-md-6">
+                      <label>To</label>
+                      <input class="form-control">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6"><br>
+                      <label>Departure Date</label>
+                      <input class="form-control">
+                    </div>
+                    <div class="col-md-6"><br>
+                      <label>Return Date</label>
+                      <input class="form-control">
+                    </div>
+                  </div>
+                  <br>
+                  <div class="row row-centered">
+                  	<!-- Split button -->
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-default">Person</button>
+                      <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                        <span class="caret"></span>
+                        <span class="sr-only">Toggle Dropdown</span>
+                      </button>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">Adult</a></li>
+                        <li><a href="#">Child</a></li>
+                        <li><a href="#">Senior</a></li>
+						<li><a href="#">Infant</a></li>
+						<li><a href="#">Lap Infant</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Separated link</a></li><!--build out radio buttons for cabin-->
+                      </ul>
+                    </div>
+					<!-- Split button -->
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-default">Seats</button>
+                      <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                        <span class="caret"></span>
+                        <span class="sr-only">Toggle Dropdown</span>
+                      </button>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">Coach</a></li>
+                        <li><a href="#">Business</a></li>
+                        <li><a href="#">First Class</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                      </ul>
+                    </div>
+                    <div class="btn-group col-lg-3 col-md-3 col-md-offset-9">
+                 <input type="submit" class="form-control btn btn-primary" value="Search">
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /.container --> 
+  
+
+
+
+
+<!-- Footer -->
+<div id="footer">
+  <div class="container">
+    <div class="footerWrapper">
+
+        <div class="footerColumns row">
+
+            <div class="primaryColumn col-lg-3 col-md-3 col-sm-3">
+
+                <h4>Got To Know Us</h4>
+
+                <ul>
+
+                    <li><a href="#" target="_blank" title="About">About us</a></li>
+
+                    <li><a href="#" target="_blank" title="Team">Team</a></li>
+
+                    <li><a href="#" target="_blank" title="Partners">Partners</a></li>
+
+                    <li><a href="#" target="_blank" title="Press">Press</a></li>
+
+               </ul>
+
+            </div>
+
+            <!-- /.primaryColumn -->
+
+            <div class="secondaryColumn col-lg-3 col-md-3 col-sm-3">
+
+                <h4>Talk To Us</h4>
+
+                <ul>
+
+                    <li><a href="#">Contact Us</a></li>
+
+                    <li><a href="#">Airlines</a></li>
+
+                    <li><a href="#">Work Here</a></li>
+
+                </ul>
+
+               <!-- <div class="viewAll">
+
+                    <a href="#">See Site Map</a>
+
+                </div>-->
+
+            </div>
+
+            <!-- /.secondaryColumn -->
+
+            <div class="thirdColumn col-lg-3 col-md-3 col-sm-3">
+
+                <h4>Services</h4>
+
+                <ul>
+
+                    <li><a href="#">Travel Agents</a></li>
+
+                    <li><a href="#">Corporate</a></li>
+
+                    <li><a href="#">Advertise with us</a></li>
+
+                    <li><a href="#">Affiliate</a></li>
+
+             </ul>
+
+                <!--<div class="viewAll">
+
+                    <a href="#">See All Cuisines</a>
+
+                </div>-->
+
+            </div>
+
+            <!-- /.thirdColumn -->
+            
+            
+            <div class="forthColumn col-lg-2 col-md-2 col-sm-2">
+
+                <h4>Company</h4>
+
+                <ul>
+
+                    <li><a href="#">FAQ's</a></li>
+
+                    <li><a href="#">Legal</a></li>
+
+                    <li><a href="#">Terms of service</a></li>
+
+                    <li><a href="#">Privacy</a></li>
+
+               </ul>
+
+               <!-- <ul class="last">
+
+                    <li><a href="#">Los Angeles Restaurants</a></li>
+
+                    <li><a href="#">Miami Restaurants</a></li>
+
+                    <li><a href="#">New York Restaurants</a></li>
+
+                    <li><a href="#">Philadelphia Restaurants</a></li>
+
+                    <li><a href="#">San Francisco Restaurants</a></li>
+
+                </ul> -->
+
+                <!--<div class="viewAll">
+
+                    <a href="#">See All Cities</a>
+
+                </div>-->
+
+            </div>
+
+            <!-- /.tertiaryColumn -->
+
+            <div class="footerBottom">
+
+
+                <p>&copy; 2015 Tuzola.com All rights reserved.</p>
+
+            </div>
+
+            <!-- /.footerBottom -->
+
+        </div>
+
+        <!-- /.footerColumns -->
+
+    </div>
+
+<!-- /.footerWrapper -->
+  </div>
+</div>
+  
+</div>
+
+
+<!-- AngularJS -->
+<script src="js/angular.min.js"></script>
+ 
+<!-- jQuery --> 
+<script src="js/jquery.js"></script> 
+
+<!-- Bootstrap Core JavaScript --> 
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
