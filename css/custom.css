@@ -53,6 +53,10 @@ span.glyphicon {
     /* inline-block space fix */
     margin-right:-4px;
 }
+
+a {
+	color: #00719e;
+}
 .center {
 	color: #e86024;
 	padding: 20px;
