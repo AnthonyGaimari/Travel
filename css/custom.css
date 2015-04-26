@@ -33,7 +33,8 @@ span.glyphicon {
 .iconbg{
 	width: 125px;
 	height: 125px;
-	background-color: #e86024;
+	/*border: 1px solid #000;*/
+	background-color: rgba(0, 0, 0, 0.3);
 	margin: 0 auto;
 	padding: 17px;
 	-webkit-border-radius: 50%;
